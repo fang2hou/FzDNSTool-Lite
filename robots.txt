@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /sup
+Disallow: /images
+Disallow: /assets
+Disallow: /images/
+Disallow: /images/
+Disallow: /assets/

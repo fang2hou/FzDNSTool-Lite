@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>iOS解决方案 - FzDNSLite</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="imagex-icon" href="images/favicon.ico">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>FzDNSLite</h1>
+						<p>iOS手动设置教程</p>
+						<a href="index.html" class="button">返回首页</a><br><br>
+						
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Content -->
+						<section id="content" class="main">
+						<h2>简单介绍</h2>
+						<p>Chrome上的插件「Unblock youku」相信大家都已经用过了吧。</p>
+						<p>其实除了Chrome上的插件，还有一个Unblock youku DNS也能够帮助海外用户解锁。</p>
+						<p>如果你对DNS相关知识熟悉，那么可以直接阅读我提交在UkuDNS上的Wiki文档。(<a href="https://github.com/uku/Unblock-Youku/wiki/Unblock-youku-dns-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%EF%BC%88%E6%9A%82%E5%AE%9A%EF%BC%89">传送门</a>)
+						</p>
+						<h2>原理及搭配建议</h2>
+							<p><sup><strong>有兴趣的可以看一下，可以跳过。</strong></sup><br>
+							目前，UkuDNS服务器同时运行有3台服务器</p>
+							<ol>
+								<li>158.69.209.100 (主)</li>
+								<li>45.32.72.192 (备)</li>
+								<li>45.63.69.42 (备)</li>
+							</ol>
+							<p>另一方面，Google为全球用户提供了2台DNS服务器</p>
+							<ol>
+								<li>8.8.8.8 (主)</li>
+								<li>8.8.4.4 (备)</li>
+							</ol>
+							<p>由于DNS设置中默认可以设置一个首选DNS（Primary DNS）和一个备用DNS（Second DNS）。电脑会在首选DNS出错时自动切换到备用DNS查询。所以如果将UkuDNS作为Primary DNS，Google DNS作为Second DNS的话，可以在解锁功能的DNS挂掉之后还能不影响日常使用。</p>
+
+							<p>对于在日本的用户，我的推荐是 45.32.72.192(Primary) + 8.8.4.4(Second)。</p>
+						<h2>手动操作</h2>
+							<p>1. 我们首先进入当前连接WiFi的详细设置</p>
+							<center><span class="image"><img class="iosstep" src="images/step1.png" alt=""></span></center>
+							<p>2. 填写DNS地址，格式为 45.32.72.192, 8.8.4.4 （英文逗号）</p>
+							<center><span class="image"><img class="iosstep" src="images/step2.png" alt=""></span></center>
+							<p>3. 续租地址，快速刷新DNS缓存</p>
+						<h2>常见问题</h2>
+						    
+							<p><sup><strong>强烈建议阅读！更新于 3/27/2017</strong></sup>
+							<br><strong>1. 使用后无法连接到公共网络（如立命馆内网）</strong></p>
+							<p>将DNS一栏清空，续订地址一次。<br>
+							由于部分学校/公共场所的内网的DNS有做劫持到验证服务器的功能，需使用默认DNS验证后开外网权限。</p>
+
+							<p><strong>2. 使用后在支持列表中的软件仍然无法使用</strong></p>
+							<p>在Safari中打开 http://ipservice.163.com/isFromMainland<br></p>
+							<p>若不为true，则说明操作有误，需重新操作。<br>
+							若为true，说明软件环境发生变化，等待支持即可。
+							</p>
+							
+							<p><strong>3. 使用后联网很慢，如一些直播或是一部分B站正常视频</strong></p>
+							<p>方案一：换一个首选DNS服务器<br>
+							方案一：清空DNS设置，还原到原先的默认DNS。
+							</p>
+
+							<p><strong>4. 解锁后部分爱奇艺视频不能看</strong></p>
+							<p>爱奇艺中存在大量合作的第三方版权视频，比如火影忍者其实是优酷的。</p>
+							<p>所以每次在你点击播放按钮之后，并不一定在爱奇艺观看视频，而是爱奇艺后台打开了那个网页然后帮你用播放器播放而已。</p>
+							<p>
+							所以，在使用爱奇艺的过程中，只有确认视频为爱奇艺版权的情况下才能保证可看。<br>另一方面，由于爱奇艺桌面客户端采用的技术不同，解锁是没有问题的。<br></p>
+							<p>B站有的就B站看就好了，不喜欢弹幕就关一下。</p>
+							
+							<p><strong>5. 解锁后QQ音乐不能使用</strong></p>
+							<p>正在解决，建议使用网易云音乐。</p>
+							<p>桌面版本的QQ音乐可以正常使用。</p>
+							
+						</section>
+					</div>
+						
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>特别鸣谢</h2>
+							<p><u>DNS服务器提供</u><br> <a href="https://github.com/yanggis">yanggis</a> & <a href="https://github.com/Migflyway">Migflyway</a>.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/uku/Unblock-Youku/wiki/Unblock-youku-dns-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%EF%BC%88%E6%9A%82%E5%AE%9A%EF%BC%89" target="_blank" class="button">UkuDNS Wiki</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>关于我</h2>
+							
+							<span class="image"><a href="https://www.fang2hou.com/about" target="_blank"><img class="author" src="images/author.png" alt="" /></a></span>
+							</section>
+							
+						<p class="copyright">Fang2hou &copy; 2017</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
