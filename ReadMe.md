@@ -8,7 +8,7 @@ A simply DNS Switcher designed for unblock-Youku DNS.
 As a part of FzDNSTool project, FzDNSTool Lite has been rebuilt the core adapter searching code with VB.Net.
 
 ### Screenshot
-<img src="https://cdn.rawgit.com/houshuu/FzDNSTool-Lite/Windows/Screenshot/windows.ss.png" width="300px"/>
+<img src="https://cdn.rawgit.com/fang2hou/FzDNSTool-Lite/Windows/Screenshot/windows.ss.png" width="300px"/>
 
 ### Requirement
 Windows 7+
