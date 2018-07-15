@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26715031E7A7B6300E882DB /* Presents.png in Resources */ = {isa = PBXBuildFile; fileRef = C26715021E7A7B6300E882DB /* Presents.png */; };
+		C268A4431E7A938700E17FA3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C268A4421E7A938700E17FA3 /* logo.png */; };
+		C27CCFDC1E7A760000450723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27CCFDB1E7A760000450723 /* AppDelegate.swift */; };
+		C27CCFDE1E7A760000450723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27CCFDD1E7A760000450723 /* ViewController.swift */; };
+		C27CCFE01E7A760000450723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27CCFDF1E7A760000450723 /* Assets.xcassets */; };
+		C27CCFE31E7A760000450723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27CCFE11E7A760000450723 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C26715021E7A7B6300E882DB /* Presents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Presents.png; sourceTree = "<group>"; };
+		C268A4421E7A938700E17FA3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C27CCFD81E7A760000450723 /* FzDNSLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FzDNSLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27CCFDB1E7A760000450723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C27CCFDD1E7A760000450723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27CCFDF1E7A760000450723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C27CCFE21E7A760000450723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C27CCFE41E7A760000450723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27CCFD51E7A760000450723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27CCFCF1E7A760000450723 = {
+			isa = PBXGroup;
+			children = (
+				C27CCFDA1E7A760000450723 /* FzDNSLite */,
+				C27CCFD91E7A760000450723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27CCFD91E7A760000450723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27CCFD81E7A760000450723 /* FzDNSLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27CCFDA1E7A760000450723 /* FzDNSLite */ = {
+			isa = PBXGroup;
+			children = (
+				C268A4421E7A938700E17FA3 /* logo.png */,
+				C26715021E7A7B6300E882DB /* Presents.png */,
+				C27CCFDB1E7A760000450723 /* AppDelegate.swift */,
+				C27CCFDD1E7A760000450723 /* ViewController.swift */,
+				C27CCFDF1E7A760000450723 /* Assets.xcassets */,
+				C27CCFE11E7A760000450723 /* Main.storyboard */,
+				C27CCFE41E7A760000450723 /* Info.plist */,
+			);
+			path = FzDNSLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27CCFD71E7A760000450723 /* FzDNSLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27CCFE71E7A760000450723 /* Build configuration list for PBXNativeTarget "FzDNSLite" */;
+			buildPhases = (
+				C27CCFD41E7A760000450723 /* Sources */,
+				C27CCFD51E7A760000450723 /* Frameworks */,
+				C27CCFD61E7A760000450723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FzDNSLite;
+			productName = FzDNSLite;
+			productReference = C27CCFD81E7A760000450723 /* FzDNSLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27CCFD01E7A760000450723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Fang2hou;
+				TargetAttributes = {
+					C27CCFD71E7A760000450723 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22LM694AT3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C27CCFD31E7A760000450723 /* Build configuration list for PBXProject "FzDNSLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27CCFCF1E7A760000450723;
+			productRefGroup = C27CCFD91E7A760000450723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27CCFD71E7A760000450723 /* FzDNSLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27CCFD61E7A760000450723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C268A4431E7A938700E17FA3 /* logo.png in Resources */,
+				C27CCFE01E7A760000450723 /* Assets.xcassets in Resources */,
+				C27CCFE31E7A760000450723 /* Main.storyboard in Resources */,
+				C26715031E7A7B6300E882DB /* Presents.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27CCFD41E7A760000450723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27CCFDE1E7A760000450723 /* ViewController.swift in Sources */,
+				C27CCFDC1E7A760000450723 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C27CCFE11E7A760000450723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27CCFE21E7A760000450723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27CCFE51E7A760000450723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27CCFE61E7A760000450723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C27CCFE81E7A760000450723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22LM694AT3;
+				INFOPLIST_FILE = FzDNSLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fang2hou.FzDNSTool-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C27CCFE91E7A760000450723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22LM694AT3;
+				INFOPLIST_FILE = FzDNSLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fang2hou.FzDNSTool-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27CCFD31E7A760000450723 /* Build configuration list for PBXProject "FzDNSLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27CCFE51E7A760000450723 /* Debug */,
+				C27CCFE61E7A760000450723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27CCFE71E7A760000450723 /* Build configuration list for PBXNativeTarget "FzDNSLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27CCFE81E7A760000450723 /* Debug */,
+				C27CCFE91E7A760000450723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27CCFD01E7A760000450723 /* Project object */;
+}
