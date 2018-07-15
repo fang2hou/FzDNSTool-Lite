@@ -8,7 +8,7 @@ Windows: [English Readme](https://github.com/fang2hou/FzDNSTool-Lite/blob/Window
 此项目为FzDNSTool项目的一个分离版本，并使用VB.Net重构了搜寻正在联网的网络适配器的代码。
 
 ### 截图
-<img src="https://cdn.rawgit.com/houshuu/FzDNSTool-Lite/Windows/Screenshot/windows.ss.png" width="300px"/>
+<img src="https://cdn.rawgit.com/fang2hou/FzDNSTool-Lite/Windows/Screenshot/windows.ss.png" width="300px"/>
 
 ### 系统需求
 Windows 7+
